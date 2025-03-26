@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Peinture BR</title>
+  <meta name="title" content="dprod - Digital product design agency">
+  <meta name="description" content="This is a agency html template made by Peinture BR">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/peinture_br_logo.png" width="109" height="52" alt="dprod logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <p class="navbar-title">Main Menu</p>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Accueil</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#SoumissionGratuite" class="navbar-link" data-nav-link>Soumission</a>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <!-- <a href="#SoumissionGratuite" class="btn btn-primary">Soumission Gratuite</a> -->
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 section-title"> <span class="span">Peinture</span>  BR
+            </h1>
+
+            <p class="section-text">
+              Service de peinture résidentielle et commerciale
+            </p>
+
+            <button class="btn btn-secondary">Soumission</button>
+
+          </div>
+
+          <figure class="hero-banner has-shape">
+
+            <img src="./assets/images/hero-banner.png" width="521" height="675" alt="hero banner" class="w-100">
+
+            <img src="./assets/images/hero-shape-1.svg" width="106" height="78" alt="" class="shape">
+
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICES
+      -->
+
+      <section class="section service has-shape" id="services" aria-label="service">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">
+              Nos  <span class="span">Services</span>.
+            </h2>
+
+            <!-- <p class="section-text">
+              Aliquam tristique libero at dui sodales, et placerat orci lobortis. Donec metus lorem, vulputate at sapien
+              sit amet,
+              auctor iaculis lorem.
+            </p> -->
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-1.png" width="60" height="60" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Peinture intérieure</a>
+                </h3>
+
+                <p class="card-text">
+                  Des finitions impeccables pour un intérieur à votre image.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-2.png" width="60" height="60" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Peinture résidentielle</a>
+                </h3>
+
+                <p class="card-text">
+                  Embellissez et protégez votre maison avec notre expertise.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-3.png" width="60" height="60" loading="lazy" alt="service icon">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Peinture commerciale</a>
+                </h3>
+
+                <p class="card-text">
+                  Mettez en valeur votre entreprise avec une peinture de qualité
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/circle-shape.svg" width="158" height="158" loading="lazy" alt=""
+            class="shape shape-1">
+
+          <img src="./assets/images/triangle-shape-1.svg" width="158" height="158" loading="lazy" alt=""
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <!-- <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner has-shape">
+            <img src="./assets/images/about-banner.png" width="500" height="611" loading="lazy" alt="about banner"
+              class="w-100">
+
+            <img src="./assets/images/banner-shape.svg" width="108" height="86" loading="lazy" alt="" class="shape">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">
+              We've been helping <span class="span">customers</span> globally.
+            </h2>
+
+            <p class="section-text">
+              Aliquam tristique libero at dui sodales, et placerat orci lobortis. Donec metus lorem, vulputate at sapien
+              sit amet,
+              auctor iaculis lorem.
+            </p>
+
+            <a href="#" class="btn btn-outline">More About Us</a>
+
+          </div>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-label="project">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <h2 class="h2 section-title">
+                Travaux <span class="span">Réalisés</span>.
+              </h2>
+
+              <!-- <p class="section-text">
+                Aliquam tristique libero at dui sodales, et placerat orci lobortis. Donec metus lorem, vulputate at
+                sapien sit amet,
+                auctor iaculis lorem.
+              </p> -->
+            </div>
+
+            <a href="#" class="btn-link">
+              <span class="span">Show More Projects</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 615; --height: 391;">
+                  <img src="./assets/images/project-1.png" width="615" height="391" loading="lazy"
+                    alt="Plastic Credit Card" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">Rénovation et peinture de façade</a>
+                    </h3>
+                  </div>
+
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 615; --height: 391;">
+                  <img src="./assets/images/project-2.png" width="615" height="391" loading="lazy" alt="3D Illustration"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">Peinture décorative et effets spéciaux</a>
+                    </h3>
+                  </div>
+
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+          
+
+          </ul>
+
+          <ul class="project-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 615; --height: 391;">
+                  <img src="./assets/images/project-3.png" width="615" height="391" loading="lazy"
+                    alt="Plastic Credit Card" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">Peinture intérieure d’un appartement</a>
+                    </h3>
+                  </div>
+
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 615; --height: 391;">
+                  <img src="./assets/images/project-4.png" width="615" height="391" loading="lazy" alt="3D Illustration"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div>
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">Peinture de boiseries et ferronneries</a>
+                    </h3>
+                  </div>
+
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <!-- contact us -->
+      <section class="contact-section" id="SoumissionGratuite">
+        
+        <div class="contact-container"><h2 class="h2 section-title">
+          Soumission <span class="span">Gratuite</span>
+        </h2>
+            <!-- <h2>Send us a message</h2> -->
+            <p style="padding: 10px;">Remplissez le formulaire ci-dessous et nous vous contacterons</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Prénom" required>
+                <input type="email" placeholder="Numéro de téléphone" required>
+                <textarea rows="4" placeholder="Travaux à effectuer" required></textarea>
+                <button class="send-btn">Send Now</button>
+            </form>
+        </div>
+    </section>
+      
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">
+              Avis  <span class="span">Clients</span>.
+            </h2>
+
+            <!-- <a href="#" class="btn-link">
+              <span class="span">Check Our All News</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a> -->
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 595; --height: 391;">
+                  <img src="./assets/images/blog-1.png" width="595" height="391" loading="lazy"
+                    alt="Designer's Checklist for Every UX Project." class="img-cover">
+
+                  
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="meta-list">
+
+                    <li class="meta-item">
+                      
+
+                      <p class="meta-item-text">Alice Williams</p>
+                    </li>
+
+                    
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title hover:underline">
+                      Travail soigné, équipe ponctuelle et résultat impeccable ! Notre maison a retrouvé une nouvelle vie.
+                    </a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Client Résidentiel</span>
+
+                    <!-- <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon> -->
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 595; --height: 391;">
+                  <img src="./assets/images/blog-2.png" width="595" height="391" loading="lazy"
+                    alt="Designer's Checklist for Every UX Project." class="img-cover">
+
+                  
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="meta-list">
+
+                    <li class="meta-item">
+                      
+
+                      <p class="meta-item-text">Denise</p>
+                    </li>
+
+                    
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title hover:underline">
+                      Service rapide et de qualité. Nos bureaux ont été transformés sans perturber nos activités.
+                    </a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Client Commercial</span>
+
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 595; --height: 391;">
+                  <img src="./assets/images/blog-3.png" width="595" height="391" loading="lazy"
+                    alt="Designer's Checklist for Every UX Project." class="img-cover">
+
+                  
+                </div>
+
+                <div class="card-content">
+
+                  <ul class="meta-list">
+
+                    <li class="meta-item">
+                      
+
+                      <p class="meta-item-text">Louis-Philippe</p>
+                    </li>
+
+                    
+
+                  </ul>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title hover:underline">
+                      Excellente expérience ! Peinture impeccable et équipe très professionnelle du début à la fin.
+                    </a>
+                  </h3>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Client résidentiel</span>
+
+                    
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/peinture_br_logo.png" width="209" height="52" alt="dprod logo">
+          </a>
+          <p style="padding: 10px;">Service de peinture résidentielle et commerciale</p>
+
+          
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        
+
+        <ul class="footer-list">
+
+          <!-- <li>
+            <p class="h4 footer-list-title">Legal</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Agency Minimal</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Creative Agency</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Creative Layout</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Dark Layout</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ with Filter</a>
+          </li> -->
+
+        </ul>
+        
+        <ul class="footer-list">
+
+          <li>
+            <p class="h4 footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Accueil</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Soumission</a>
+          </li>
+
+          
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h4 footer-list-title">Nous joindre</p>
+          </li>
+
+          <a href="mailto:companyinfo@mail.com" class="footer-link"> info@peinturebr.com</a>
+
+          <a href="tel:+0987654321" class="footer-link"> +1 514-715-8285</a>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright 2025 All Rights Reserved by Peinture BR.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
